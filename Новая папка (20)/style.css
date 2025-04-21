@@ -1,0 +1,75 @@
+
+
+header{
+    
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+header div{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+header a{
+    color: rgb(154, 151, 151);
+    text-decoration: none;
+    
+}
+.left{
+
+    width: 400px;
+}
+.box{
+ 
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 100px;
+}
+.box button{
+    width: 197px;
+    height: 49px;
+    border-radius: 40px;
+    color: #fff;
+}
+.text{
+    text-align: center;
+    width: 952px;
+    margin: 0 auto;
+}
+.cards div{
+
+    width: 380px;
+    height: 380px;
+    background-color: gray;
+    border-radius: 20px;
+   
+
+}
+ .cards img,p{
+    padding-top: 50px;
+    padding-left: 30px;
+    
+ }
+main{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+gap: 40px;
+}
+a:hover{
+    color: black;
+}
+
+button:active{
+    background-color: blue;
+}
+
+.cards div:hover{
+    background-color: rgba(90, 152, 242, 1);
+}
